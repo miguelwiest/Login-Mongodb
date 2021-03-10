@@ -1,0 +1,22 @@
+{
+  "name": "jwt-express-mongodb",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-load": "^1.1.16",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^7.4.2",
+    "mongodb": "^2.2.31",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  }
+}
